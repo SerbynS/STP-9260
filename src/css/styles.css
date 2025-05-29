@@ -11,8 +11,9 @@
 @import url('./animations.css');
 
 /* Sections style */
+
+/* Vlada Marchenko */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+
+/* Oleksandr Serbyn */
 @import url('./footer.css');
