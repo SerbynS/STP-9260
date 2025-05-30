@@ -31,3 +31,10 @@
 .reviews-item .autor {
   text-align: right;
 }
+
+@media only screen and (min-width: 1200px) {
+  .section-reviews .container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
