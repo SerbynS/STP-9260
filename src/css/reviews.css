@@ -1,0 +1,33 @@
+.section-reviews {
+  /* background-image: url(../img/reviews-bg.png); */
+}
+
+.section-reviews .container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section-reviews h2 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px 24px;
+}
+
+.reviews-item {
+  width: 272px;
+  padding: 16px;
+  border: 1px solid black;
+}
+
+.reviews-item .description {
+  margin-bottom: 8px;
+}
+
+.reviews-item .autor {
+  text-align: right;
+}
