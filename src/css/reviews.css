@@ -21,7 +21,10 @@
 .reviews-item {
   width: 272px;
   padding: 16px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+
+  background-image: url('../img/reviews/reviews.jpg');
+  background-size: contain;
 }
 
 .reviews-item .description {
