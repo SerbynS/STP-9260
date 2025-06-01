@@ -4,7 +4,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
-  background-color: #9cf1ff;
+  background-color: rgba(141, 251, 247, 1);
 }
 
 main {
