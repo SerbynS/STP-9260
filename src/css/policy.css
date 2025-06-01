@@ -1,0 +1,29 @@
+.content-privacy .container {
+  padding: 0 24px;
+  padding-top: 32px;
+}
+
+.content-privacy .title {
+  font-family: Bokor;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.1em;
+  color: rgba(47, 53, 12, 1);
+  margin-bottom: 16px;
+}
+
+.content-privacy .update {
+  font-family: Caladea;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.content-privacy .privacy-policy {
+  font-family: Caladea;
+  /* font-weight: 700; */
+  font-size: 16px;
+  line-height: 24px;
+}
