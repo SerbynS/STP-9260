@@ -19,4 +19,8 @@
 @import url('./modal.css');
 
 /* Oleksandr Serbyn */
+@import url('./faq.css');
+@import url('./reviews.css');
+
+@import url('./gallery.css');
 @import url('./footer.css');
