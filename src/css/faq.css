@@ -52,6 +52,10 @@
   padding-bottom: 16px;
 }
 
+.faq-item.is-active .icon {
+  transform: rotate(180deg);
+}
+
 .faq-item {
   border-bottom: 1px solid rgba(47, 53, 12, 1);
   padding-bottom: 8px;

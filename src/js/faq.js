@@ -8,7 +8,7 @@ export default function initFaq() {
       //   openOnInit: [0],
       showMultiple: true,
       elementClass: 'faq-item',
-      triggerClass: 'title',
+      triggerClass: 'faq-ac-header',
       panelClass: 'faq-ac-panel',
       openOnInit: [0, 1, 2, 3, 4, 5],
       //   activeClass: 'is-active',
