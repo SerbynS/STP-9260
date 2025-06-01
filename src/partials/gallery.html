@@ -1,34 +1,47 @@
 <section class="section-gallery">
   <div class="container">
     <h2>Gallery</h2>
-    <ul class="gallery">
-      <li class="gallery-item">
-        <img src="" alt="" class="gallery-image" />
-        <p class="gallery-description">
-          “Grow Your Sword!” – Watch as your blade stretches with every slash.
-        </p>
-      </li>
-      <li class="gallery-item">
-        <img src="" alt="" class="gallery-image" />
-        <p class="gallery-description">
-          “Slash with Purpose!” – Solve puzzles by swinging and rolling your way
-          through clever layouts.
-        </p>
-      </li>
-      <li class="gallery-item">
-        <img src="" alt="" class="gallery-image" />
-        <p class="gallery-description">
-          “Adventure Awaits!” – Visit meadows, volcanoes, castles, and spooky
-          ruins.
-        </p>
-      </li>
-      <li class="gallery-item">
-        <img src="" alt="" class="gallery-image" />
-        <p class="gallery-description">
-          “The Queendom Needs You!” – Meet eccentric allies and foes as you
-          rewrite the fate of a fading land.
-        </p>
-      </li>
-    </ul>
+    <div class="swiper-gallery swiper">
+      <ul class="gallery swiper-wrapper">
+        <li class="gallery-item swiper-slide">
+          <img src="../img/gallery/1.jpg" alt="" class="gallery-image" />
+          <p class="gallery-description">
+            “Grow Your Sword!” – Watch as your blade stretches with every slash.
+          </p>
+        </li>
+        <li class="gallery-item swiper-slide">
+          <img src="../img/gallery/2.jpg" alt="" class="gallery-image" />
+          <p class="gallery-description">
+            “Slash with Purpose!” – Solve puzzles by swinging and rolling your
+            way through clever layouts.
+          </p>
+        </li>
+        <li class="gallery-item swiper-slide">
+          <img src="../img/gallery/3.png" alt="" class="gallery-image" />
+          <p class="gallery-description">
+            “Adventure Awaits!” – Visit meadows, volcanoes, castles, and spooky
+            ruins.
+          </p>
+        </li>
+        <li class="gallery-item swiper-slide">
+          <img src="../img/gallery/4.jpg" alt="" class="gallery-image" />
+          <p class="gallery-description">
+            “The Queendom Needs You!” – Meet eccentric allies and foes as you
+            rewrite the fate of a fading land.
+          </p>
+        </li>
+      </ul>
+      <div class="swiper-button-next swiper-button">
+        <svg class="icon" width="32" height="32">
+          <use href="../img/icons/test.svg#icon-right-arrow"></use>
+        </svg>
+      </div>
+      <div class="swiper-button-prev swiper-button">
+        <svg class="icon" width="32" height="32">
+          <use href="../img/icons/test.svg#icon-chevron-left"></use>
+        </svg>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
   </div>
 </section>
