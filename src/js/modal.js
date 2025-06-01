@@ -12,6 +12,6 @@ closeBtns.forEach((btn) => {
     btn.addEventListener('click', (event) => {
         event.stopPropagation()
         modal.classList.remove('modal--open')
-        localStorage.setItem('coockieModal', 'true')
+        localStorage.setItem('cookieModal', 'true')
     })
 })
