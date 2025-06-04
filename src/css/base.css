@@ -7,6 +7,11 @@ body {
   background-color: rgba(141, 251, 247, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 93px;
+}
+
 main {
   flex-grow: 1;
 }
