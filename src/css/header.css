@@ -10,10 +10,7 @@ position: relative;
 
 .header-bg {
   position: relative;
-  background-image: image-set(
-    url('../img/backgrounds/header.jpg') 1x,
-    url('../img/backgrounds/header@2x.jpg') 2x
-  );
+  background-image: url(../img/backgrounds/header.jpg);
   background-size: cover;
   background-position: 37% center;
   background-repeat: no-repeat;

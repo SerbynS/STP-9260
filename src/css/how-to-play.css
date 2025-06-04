@@ -8,10 +8,7 @@ align-items: center;
 }
 
 .how_to_play-bg {
-background-image: image-set(
-url('../img/backgrounds/how_to_play.jpg') 1x,
-url('../img/backgrounds/how_to_play@2x.jpg') 2x
-);;
+background: url('../img/backgrounds/how_to_play.jpg');
 position: relative;
 background-size: cover;
 background-repeat: no-repeat;

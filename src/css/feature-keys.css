@@ -8,10 +8,7 @@ align-items: center;
 }
 
 .keys-bg {
-background-image: image-set(
-url('../img/backgrounds/feature_keys.jpg') 1x,
-url('../img/backgrounds/feature_keys@2x.jpg') 2x
-);;
+background: url('../img/backgrounds/feature_keys.png');
 position: relative;
 background-size: cover;
 background-repeat: no-repeat;
