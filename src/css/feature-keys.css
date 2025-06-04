@@ -1,0 +1,118 @@
+.keys {
+padding-top: 32px;
+padding-bottom: 32px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.keys-bg {
+background: url('../img/backgrounds/feature_keys.png');
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+background-position: 53% center;
+width: 100vw;
+}
+
+.keys-bg::before {
+content: "";
+position: absolute;
+inset: 0;
+background:rgba(0, 0, 0, 0.69);
+z-index: 0;
+}
+
+.keys-bg > *{
+position: relative;
+z-index: 1;
+}
+
+.keys-container {
+width: 320px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.keys-title {
+margin-bottom: 24px;
+font-family: 'Bokor';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+
+.keys-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 16px;
+}
+
+.keys-content div {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 16px;
+width: 272px;
+}
+
+.keys-content div img {
+border-radius: 16px;
+}
+
+.keys-text {
+font-family: 'Caladea';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+@media (min-width:1200px){
+.keys {
+ padding: 48px 80px;
+ }
+
+ .keys-bg {
+ background-position: 62% center;
+ }
+
+ .keys-title {
+ margin-bottom: 36px;
+ font-size: 48px;
+ }
+
+ .keys-content div {
+ flex-direction: row;
+ gap: 113px;
+ width: unset;
+ }
+
+ .keys-content img {
+ width: 431px;
+ }
+
+ .keys-container {
+ width: 939px;
+ }
+
+ .reverse img {
+ order: 2;
+ }
+
+ .reverse p {
+ order: 1;
+ }
+}
