@@ -106,7 +106,7 @@ gap: 16px;
   }
 
   .benefits-bg{
-    background:url('../img/backgrounds/benefits-gallery.png') center/cover no-repeat;
+    background:url('../img/backgrounds/benefits-gallery.jpg') center/cover no-repeat;
   }
 
   .benefits-bg::after{display:none;}
