@@ -1,0 +1,222 @@
+.body-policy {
+  background-image: url('../img/backgrounds/Privacy-bg-mobile.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+}
+
+.back-button:hover {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.body-policy > footer {
+  background-color: transparent;
+  padding-top: 0;
+}
+
+.content-privacy {
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+.content-privacy .container {
+  padding: 0 24px;
+}
+
+.content-privacy .back-button {
+  font-family: Caladea;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+
+.back-button > svg {
+  margin-right: 19px;
+}
+
+.content-privacy .title {
+  font-family: Bokor;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.1em;
+  color: rgba(47, 53, 12, 1);
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.content-privacy .update {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+.content-privacy .update strong {
+  font-family: Caladea;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-privacy .privacy-policy p {
+  font-family: Caladea;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-privacy .privacy-policy li p {
+  font-family: Caladea;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-privacy .privacy-policy span {
+  font-family: Caladea;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.content-privacy .privacy-policy > p {
+  margin-bottom: 32px;
+}
+
+.privacy-policy p {
+  margin-bottom: 8px;
+}
+.privacy-policy ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.privacy-policy ol {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.privacy-policy ol > li {
+  margin-bottom: 32px;
+}
+
+.privacy-policy ol > li > ul {
+  margin-bottom: 32px;
+}
+
+.privacy-policy ol > li > strong {
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.privacy-policy ol > li > p {
+  margin-bottom: 32px;
+}
+
+.privacy-policy ul > li {
+  margin-bottom: 8px;
+}
+
+.content-privacy .terms {
+}
+
+.content-privacy .terms strong {
+  font-family: Caladea;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-privacy .terms p {
+  font-family: Caladea;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-privacy .terms > p {
+  margin-bottom: 32px;
+}
+
+.content-privacy .terms ul > li:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.content-privacy .terms ul strong {
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.content-privacy .terms ul li:not(:last-child) p {
+  margin-bottom: 32px;
+}
+
+.body-terms > footer {
+  background-color: transparent;
+  padding-top: 0;
+}
+
+.body-terms {
+  background-image: url('../img/backgrounds/Term-bg-mobile.png');
+}
+
+.content-privacy .privacy-policy li p:last-child {
+  margin-bottom: 0;
+}
+
+.content-privacy .privacy-policy ol > li:last-child {
+  margin-bottom: 0;
+}
+
+.body-cookies > footer {
+  background-color: transparent;
+  padding-top: 0;
+}
+
+.body-cookies {
+  background-image: url('../img/backgrounds/Term-bg-mobile.png');
+}
+
+@media only screen and (min-width: 1200px) {
+  .body-policy {
+    background-image: url('../img/backgrounds/Privacy-bg-Desktop.png');
+  }
+
+  .content-privacy .title {
+    font-family: Bokor;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: 0.1em;
+  }
+
+  .body-terms {
+    background-image: url('../img/backgrounds/Privacy-bg-Desktop.png');
+  }
+
+  .body-terms .title {
+    font-family: Bokor;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: 0.1em;
+  }
+
+  .body-cookies {
+    background-image: url('../img/backgrounds/Privacy-bg-Desktop.png');
+  }
+
+  .body-cookies .title {
+    font-family: Bokor;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: 0.1em;
+  }
+}

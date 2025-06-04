@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 72px;
 }
 
 header,
@@ -163,6 +164,10 @@ header,
 }
 
 @media only screen and (min-width: 1200px) {
+  html {
+    scroll-padding-top: 93px;
+  }
+  
   .wrapper {
     height: 93px;
     gap: 290px;
