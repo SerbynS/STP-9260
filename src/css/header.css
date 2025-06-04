@@ -162,9 +162,6 @@ header,
   margin-bottom: 25px;
 }
 
-
-
-
 @media only screen and (min-width: 1200px) {
   .wrapper {
     height: 93px;
@@ -175,13 +172,13 @@ header,
     transform: translateX(-50%);
   }
 
-.header-bg {
+  .header-bg {
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
     box-shadow: inset 0px -232px 100px rgba(0, 0, 0, 0.7);
-    width: 1377px;
-}
+    width: 1200px;
+  }
 
   .logo {
     width: 56px;
