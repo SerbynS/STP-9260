@@ -30,7 +30,11 @@
     top:50%; left:50%;
     width:100vh;              
     height:100vw;
-    background:url('../img/backgrounds/benefits-gallery.png') center/cover no-repeat;
+    background-image: image-set(
+    url('../img/backgrounds/benefits-gallery.jpg') 1x,
+    url('../img/backgrounds/benefits-gallery@2x.jpg') 2x
+    );;
+    background: center/cover no-repeat;
     transform:translate(-50%,-50%) rotate(90deg) scale(1.35);
     transform-origin:center;
     z-index:0;
