@@ -1,6 +1,56 @@
+.content-privacy {
+  position: relative;
+  background-image: url('../img/privacy/policy-bg1.jpg');
+  background-position: center top;
+  background-size: auto 971px;
+  background-repeat: no-repeat;
+  /* background-color: rgba(143, 255, 247, 0.7); */
+  background-blend-mode: overlay;
+  z-index: 0;
+}
+
+/* .content-privacy::after {
+  content: '';
+  position: absolute;
+  top: 971px;
+  left: 0;
+  width: 100%;
+  height: 971px; 
+  background-image: url('../img/privacy/policy-bg1.jpg');
+  background-position: center top;
+  background-size: auto 971px;
+  background-repeat: no-repeat;
+  transform: scaleY(-1); 
+  z-index: -1; 
+}
+
+.content-privacy::before {
+  content: '';
+  position: absolute;
+  top: 1936px; 
+  left: 0;
+  width: 100%;
+  height: 971px; 
+  background-image: url('../img/privacy/policy-bg1.jpg');
+  background-position: center top;
+  background-size: auto 971px;
+  background-repeat: no-repeat;
+  
+  z-index: -1;
+} */
+.content-privacy {
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
 .content-privacy .container {
   padding: 0 24px;
-  padding-top: 32px;
+}
+
+.content-privacy .back-button {
+  font-family: Caladea;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .content-privacy .title {
@@ -11,19 +61,77 @@
   letter-spacing: 0.1em;
   color: rgba(47, 53, 12, 1);
   margin-bottom: 16px;
+  margin-top: 32px;
 }
 
 .content-privacy .update {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+.content-privacy .update strong {
   font-family: Caladea;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 16px;
 }
 
-.content-privacy .privacy-policy {
+.content-privacy .privacy-policy p {
   font-family: Caladea;
-  /* font-weight: 700; */
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+.content-privacy .privacy-policy li p {
+  font-family: Caladea;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-privacy .privacy-policy span {
+  font-family: Caladea;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.content-privacy .privacy-policy > p {
+  margin-bottom: 32px;
+}
+
+.privacy-policy p {
+  margin-bottom: 8px;
+}
+.privacy-policy ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.privacy-policy ol {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.privacy-policy ol > li {
+  margin-bottom: 32px;
+}
+
+.privacy-policy ol > li > strong {
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.privacy-policy ol > li > p {
+  margin-bottom: 32px;
+}
+
+.privacy-policy ul > li {
+  margin-bottom: 8px;
 }
