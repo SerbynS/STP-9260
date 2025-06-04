@@ -42,13 +42,12 @@ footer .footer-copyright {
   footer {
     padding-top: 32px;
 
-    background-image: url('../img/backgrounds/benefits-gallery.png');
+    /* background-image: url('../img/backgrounds/foore-bg-table.png'); */
     background-color: rgba(139, 252, 244, 0.4);
 
     background-blend-mode: overlay;
-    background-position-x: 80%;
-    background-position-y: bottom;
-    background-size: 1570px 850px;
+    background-position: center top;
+    /* background-size: 1570px 850px; */
   }
 
   .footer-nav-list {

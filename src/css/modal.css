@@ -1,0 +1,128 @@
+.modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-top: 32px ;
+    padding-bottom: 32px;
+    background: rgba(141, 251, 247, 0.99);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    display: none;
+} 
+
+.no-scroll{
+  overflow: hidden;
+}
+
+
+.modal--open {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal-title {
+font-family: 'Caladea';
+font-style: normal;
+font-weight: 550;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+color: #2F350C;
+}
+
+.modal-text {
+font-family: 'Caladea';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #2F350C;
+}
+
+.modal-text-box {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24px;
+width: 272px;
+}
+
+.modal-btn {
+font-family: 'Caladea';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #2F350C;
+text-transform: uppercase;
+width: 100%;
+}
+
+.modal-btn:hover {
+background: #8DFBF7;
+}
+
+.accept-btn {
+height: 44px;
+background: #FFFFFF;
+border-radius: 8px;
+border: none;
+}
+
+.decline-btn {
+height: 44px;
+border: 1px solid #2F350C;
+border-radius: 8px;
+background-color: transparent;
+}
+
+.modal-btn-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 272px;
+}
+
+@media only screen and (min-width: 1200px) {
+.modal {
+    background: rgba(141, 251, 247, 0.98);
+}
+.modal-text-box {
+width: 526px;
+align-items: flex-start;
+}
+
+.modal-title {
+display: block;
+text-align: left;
+}
+
+.modal-btn {
+width: 135px;
+height: 44px;
+font-family: 'Caladea';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+color: #2F350C;
+}
+
+.modal-btn-box {
+flex-direction: row;
+gap: 40px;
+width: 318px;
+}
+
+}

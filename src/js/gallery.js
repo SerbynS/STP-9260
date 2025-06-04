@@ -15,7 +15,7 @@ export default function initGallery() {
     a11y: false,
     keyboard: { enabled: true },
     slidesPerView: 1,
-    autoHeight: true,
+    // autoHeight: true,
     pagination: {
       el: '.swiper-pagination',
       dynamicBullets: true,

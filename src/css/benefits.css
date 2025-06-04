@@ -1,0 +1,149 @@
+:root {
+  --mob-bg-scale: 1;
+  --mob-bg-width: 568px;
+  --mob-bg-height: 320px;
+}
+
+.benefits {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.benefits-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.benefits-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(141, 251, 247, 0.4);
+  z-index: 1;
+}
+
+.benefits-bg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vh;
+  height: 100vw;
+  background: url('../img/backgrounds/benefits-gallery.jpg') center/cover
+    no-repeat;
+  transform: translate(-50%, -50%) rotate(90deg) scale(1.35);
+  transform-origin: center;
+  z-index: 0;
+  width: calc(var(--mob-bg-width) * var(--mob-bg-scale));
+  height: calc(var(--mob-bg-height) * var(--mob-bg-scale));
+}
+
+.benefits-bg > * {
+  position: relative;
+  z-index: 2;
+}
+
+.break {
+  display: none;
+}
+
+.benefits-title {
+  font-family: 'Bokor';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #2f350c;
+}
+
+.benefits-content {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.benefits-content div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.benefits-content div img,
+.no_ads img {
+  width: 44px;
+}
+
+.benefits-text {
+  font-family: 'Caladea';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2f350c;
+}
+
+.no_ads {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.sticky-img {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .benefits {
+    padding: 48px 80px;
+  }
+
+  .benefits-bg {
+    background: url('../img/backgrounds/benefits-gallery.jpg') center/cover
+      no-repeat;
+  }
+
+  .benefits-bg::after {
+    display: none;
+  }
+
+  .break {
+    display: inline;
+  }
+
+  .benefits-title {
+    font-size: 48px;
+  }
+
+  .benefits-content {
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 90px;
+    row-gap: 16px;
+  }
+
+  .benefits-content div,
+  .no_ads {
+    height: 90px;
+  }
+
+  .sticky-img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 40px;
+    margin-bottom: -12px;
+  }
+}

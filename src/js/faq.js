@@ -10,7 +10,7 @@ export default function initFaq() {
       elementClass: 'faq-item',
       triggerClass: 'faq-ac-header',
       panelClass: 'faq-ac-panel',
-      openOnInit: [0, 1, 2, 3, 4, 5],
+      // openOnInit: [0, 1, 2, 3, 4, 5],
       //   activeClass: 'is-active',
     });
   });

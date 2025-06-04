@@ -1,11 +1,14 @@
-// const openBtnEl = document.querySelector('[data-action="open"]');
-// const closeBtnEl = document.querySelector('[data-action="close"]');
-// const burgerMenuEl = document.querySelector('[data-visible]');
 
-// openBtnEl.addEventListener('click', e => {
-//   burgerMenuEl.dataset.visible = 'open';
-// });
+const burgerBtn = document.querySelector('[data-action="open"]')
+const nav = document.querySelector('.nav')
 
-// closeBtnEl.addEventListener('click', e => {
-//   burgerMenuEl.dataset.visible = 'close';
-// });
+burgerBtn.addEventListener('click', (event) => {
+    event.stopPropagation()
+    nav.classList.toggle('nav--open')
+})
+
+document.addEventListener('click', (event) => {
+    if (nav.classList.contains('nav--open') && !nav.contains(event.target) && !burgerBtn.contains(event.target)) {
+        nav.classList.remove('nav--open')
+    }
+})
