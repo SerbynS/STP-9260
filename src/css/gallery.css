@@ -7,7 +7,7 @@
 
 .section-gallery {
   padding: 32px 0;
-  background-image: url('../img/backgrounds/benefits-gallery.png');
+  background-image: url('../img/backgrounds/benefits-gallery.jpg');
   background-color: rgba(139, 252, 244, 0.4);
   background-blend-mode: overlay;
   background-position-x: 90%;
@@ -102,7 +102,7 @@
 }
 @media only screen and (min-width: 1200px) {
   .section-gallery {
-    background-image: url('../img/backgrounds/benefits-gallery.png');
+    background-image: url('../img/backgrounds/benefits-gallery.jpg');
     background-color: rgba(139, 252, 244, 0.4);
     background-blend-mode: overlay;
     background-position-x: 80%;
