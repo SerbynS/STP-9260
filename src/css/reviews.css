@@ -1,7 +1,6 @@
 .section-reviews {
   background-image: url('../img/backgrounds/feature_keys.jpg');
   background-position: center top;
-  background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   background-size: auto 911px;
 }
@@ -35,6 +34,7 @@
 .section-reviews .container {
   padding-top: 32px;
   padding-bottom: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .section-reviews h2 {
@@ -68,7 +68,9 @@
 @media only screen and (min-width: 1200px) {
   .section-reviews {
     background-position: center center;
+    /* background-size: 1200px auto; */
     background-size: 1200px auto;
+    background-repeat: no-repeat;
   }
 
   .section-reviews .container {

@@ -42,7 +42,7 @@ footer .footer-copyright {
   footer {
     padding-top: 32px;
 
-    background-image: url('../img/backgrounds/foore-bg-table.png');
+    /* background-image: url('../img/backgrounds/foore-bg-table.png'); */
     background-color: rgba(139, 252, 244, 0.4);
 
     background-blend-mode: overlay;

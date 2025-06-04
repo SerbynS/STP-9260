@@ -8,6 +8,10 @@
   color: rgba(47, 53, 12, 1);
 }
 
+.faq-ac-header {
+  cursor: pointer;
+}
+
 /* Accordion */
 .faq-ac-panel {
   visibility: hidden;

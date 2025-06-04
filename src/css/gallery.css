@@ -94,6 +94,10 @@
   content: '' !important;
 }
 
+.swiper-button:hover {
+  background: rgba(122, 137, 31, 0.6);
+}
+
 .swiper-button {
   display: none !important;
 }
