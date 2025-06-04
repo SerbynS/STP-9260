@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 })
 
-
 closeBtns.forEach((btn) => {
     btn.addEventListener('click', (event) => {
         event.stopPropagation()
@@ -17,5 +16,3 @@ closeBtns.forEach((btn) => {
         document.documentElement.classList.remove('no-scroll')
     })
 })
-
-
