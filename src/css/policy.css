@@ -1,43 +1,21 @@
-.content-privacy {
-  position: relative;
-  background-image: url('../img/privacy/policy-bg1.jpg');
-  background-position: center top;
-  background-size: auto 971px;
+.body-policy {
+  background-image: url('../img/backgrounds/Privacy-bg-mobile.png');
   background-repeat: no-repeat;
-  /* background-color: rgba(143, 255, 247, 0.7); */
-  background-blend-mode: overlay;
-  z-index: 0;
+  background-position: center top;
+  background-size: 100% 100%;
 }
 
-/* .content-privacy::after {
-  content: '';
-  position: absolute;
-  top: 971px;
-  left: 0;
-  width: 100%;
-  height: 971px; 
-  background-image: url('../img/privacy/policy-bg1.jpg');
-  background-position: center top;
-  background-size: auto 971px;
-  background-repeat: no-repeat;
-  transform: scaleY(-1); 
-  z-index: -1; 
+@media only screen and (min-width: 1200px) {
+  .body-policy {
+    background-image: url('../img/backgrounds/Privacy-bg-Desktop.png');
+  }
 }
 
-.content-privacy::before {
-  content: '';
-  position: absolute;
-  top: 1936px; 
-  left: 0;
-  width: 100%;
-  height: 971px; 
-  background-image: url('../img/privacy/policy-bg1.jpg');
-  background-position: center top;
-  background-size: auto 971px;
-  background-repeat: no-repeat;
-  
-  z-index: -1;
-} */
+.body-policy > footer {
+  background-color: transparent;
+  padding-top: 0;
+}
+
 .content-privacy {
   padding-top: 48px;
   padding-bottom: 32px;
