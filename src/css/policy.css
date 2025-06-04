@@ -101,6 +101,10 @@
   margin-bottom: 32px;
 }
 
+.privacy-policy ol > li > ul {
+  margin-bottom: 32px;
+}
+
 .privacy-policy ol > li > strong {
   display: inline-block;
   margin-bottom: 32px;
