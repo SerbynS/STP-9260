@@ -1,0 +1,114 @@
+.section-faq {
+  background-image: url('../img/backgrounds/faq-about.jpg');
+  background-color: rgba(141, 251, 247, 0.7);
+  background-blend-mode: overlay;
+  background-position: center top;
+  background-size: auto 100%;
+
+  color: rgba(47, 53, 12, 1);
+}
+
+/* Accordion */
+.faq-ac-panel {
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.is-active .faq-ac-panel {
+  visibility: visible;
+}
+
+.faq-item.is-active .faq-ac-header {
+  margin-bottom: 8px;
+}
+
+/*  */
+
+.section-faq .container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section-faq h2 {
+  font-family: Bokor;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: 0.1em;
+  text-align: center;
+
+  margin-bottom: 24px;
+}
+
+.section-faq .faq-list {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 16px;
+  padding-bottom: 0;
+}
+
+.faq-item.is-active {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+}
+
+.faq-item.is-active .icon {
+  transform: rotate(180deg);
+}
+
+.faq-item {
+  border-bottom: 1px solid rgba(47, 53, 12, 1);
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.faq-list .faq-item:last-child {
+  border-bottom: none;
+  padding-bottom: 16px;
+  margin-bottom: 0;
+}
+
+.faq-list .faq-item.is-active:last-child {
+  padding-bottom: 24px;
+}
+
+.faq-item .faq-ac-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.section-faq .title {
+  font-family: Caladea;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 16px;
+}
+
+.section-faq .description {
+  font-family: Caladea;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .section-faq {
+    background-position: center center;
+    background-size: 1650px 100%;
+  }
+
+  .section-faq .container {
+    padding: 48px 91.5px;
+  }
+  .section-faq h2 {
+    margin-bottom: 36px;
+  }
+
+  .faq-list .faq-item.is-active:last-child {
+    padding-bottom: 32px;
+  }
+}

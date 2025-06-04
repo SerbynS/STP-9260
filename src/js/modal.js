@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 })
 
-
 closeBtns.forEach((btn) => {
     btn.addEventListener('click', (event) => {
         event.stopPropagation()
