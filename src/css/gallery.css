@@ -12,7 +12,7 @@
   background-blend-mode: overlay;
   background-position-x: 90%;
   background-position-y: top;
-  background-size: 400px 356px;
+  background-size: auto 356px;
 }
 
 .section-gallery h2 {
@@ -109,9 +109,10 @@
     background-image: url('../img/backgrounds/benefits-gallery.jpg');
     background-color: rgba(139, 252, 244, 0.4);
     background-blend-mode: overlay;
-    background-position-x: 80%;
+    background-position-x: center;
     background-position-y: top;
-    background-size: 1570px 770px;
+    background-size: 1200px 770px;
+    background-repeat: no-repeat;
   }
 
   .section-gallery .container {
