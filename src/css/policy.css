@@ -191,6 +191,9 @@
 
 .body-terms {
   background-image: url('../img/backgrounds/Term-bg-mobile.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
 }
 
 .content-privacy .privacy-policy li p:last-child {
@@ -208,6 +211,9 @@
 
 .body-cookies {
   background-image: url('../img/backgrounds/Term-bg-mobile.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
 }
 
 @media only screen and (min-width: 1200px) {
