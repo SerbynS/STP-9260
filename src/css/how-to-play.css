@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
   overflow: hidden;
   background-position: center center;
-  /* width: 100vw; */
+  width: 100%;
 }
 
 .how_to_play-bg::before {
@@ -81,6 +81,11 @@
     position: relative;
     width: 100%;
   }
+
+  .how_to_play-bg {
+    max-width: 1200px;
+  }
+
 
   .how_to_play-text {
     grid-column: 1;
